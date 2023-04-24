@@ -39,14 +39,14 @@ const Movie = () => {
     }, []);
 
     return (
-        <div>
+        <div class="movie-page">
             {movie && 
                 <>
                     <MovieCard movie={movie} showLink={false} />
                     <p className="tagline">{movie.tagline}</p>
                     <div className="info">
                         <h3><BsWallet2 />Budget:</h3>
-                        <p>{movie.revenue(movie.budget)}</p>
+                        <p>{formatCurrency(movie.budget)}</p>
                     </div>
                     <div className="info">
                         <h3><BsGraphUp />Revenue:</h3>
