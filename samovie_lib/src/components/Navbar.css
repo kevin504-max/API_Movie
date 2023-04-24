@@ -28,8 +28,8 @@
 }
 
 #navbar form button {
-    background-color: #F7d354;
-    border: #F7d354;
+    background-color: #F7D354;
+    border: #F7D354;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -50,5 +50,5 @@
 
 #navbar form button:hover {
     background-color: transparent;
-    color: #F7d354;
+    color: #F7D354;
 }
